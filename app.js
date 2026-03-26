@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 // Route
 app.get("/", (req, res) => {
-  res.send("Hello World from Sairaj 🚀");
+  res.send("Hello World from NodeJs");
 });
 
 // Start server (IMPORTANT: 0.0.0.0 for EC2 access)
